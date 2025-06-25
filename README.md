@@ -5,25 +5,25 @@
 # iOS17-inspired-calculator
 A sleek, modern replica of the **iOS 17 Calculator** with enhanced features like **scientific mode**, **real-time clock widget**, and **calculation history**- all built using **HTML, CSS, and JavaScript**.
 
-<h3>📸 Screenshots</h3>
-<img src=assets/img1.png alt=ios-calculator align=left height=600px> 
+**<h3>📸 Screenshots</h3>**
+<div style=width: 500px; height= 500px; overflow: hidden;>
+  <img src=assets/img1.png alt=ios-calculator style= object-fit: cover; width: 100%; height: 100% align=left > 
+</div>
 
-
-<h3>✨ Features</h3>
-
-<h3>🎨 iOS 17 Inspired UI</h3>
+**<h3>✨Features</h3>**
+<h3>-🎨 iOS 17 Inspired UI</h3>
   Modern, minimal, and glassmorphic design closely mimicking iOS aesthetics.
 
-<h3>🧮 Scientific Calculator Mode</h3>
+<h3>-🧮 Scientific Calculator Mode</h3>
   Easily switch between basic and scientific modes for advanced computations.
 
-<h3>🕒 Real-Time Clock Widget</h3>
+<h3>-🕒 Real-Time Clock Widget</h3>
   Displays the current time (Indian Standard Time by default) just like in the real iOS app interface.
 
-<h3>🧾 Calculation History</h3>
+<h3>-🧾 Calculation History</h3>
   Keeps track of recent calculations so you never lose your work.
 
-<h3>💡 Dark Mode Ready</h3>
+<h3>-💡 Dark Mode Ready</h3>
   Designed to look stunning in both light and dark environments.
 
 <br>
