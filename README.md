@@ -6,7 +6,7 @@
 A sleek, modern replica of the **iOS 17 Calculator** with enhanced features like **scientific mode**, **real-time clock widget**, and **calculation history**- all built using **HTML, CSS, and JavaScript**.
 
 <h3>📸 Screenshots</h3>
-<img src=assets/img1.png alt=ios-calculator align=left height=650px> 
+<img src=assets/img1.png alt=ios-calculator align=left height=600px> 
 
 
 <h3>✨ Features</h3>
