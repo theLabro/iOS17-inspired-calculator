@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+        rel="shortcut icon"
+        href="assets/calculatorIcon.png"
+        type="assets/image/x-icon"
+    />
+    <title>iOS Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="phone-frame">
+        <div id="status-bar">
+            <button id="history-btn">☰</button>
+            <div id="time-display">9:41</div>
+        </div>
+
+        <div id="calculator-display">
+            <div id="expression"></div>
+            <div id="result">0</div>
+        </div>
+
+        <div id="buttons-container">
+            <button class="btn light-gray scientific-btn" data-op="fact">!</button>
+            <button class="btn light-gray" data-action="clear">AC</button>
+            <button class="btn light-gray" data-action="toggle-sign">+/-</button>
+            <button class="btn light-gray" data-action="percent">%</button>
+            <button class="btn orange" data-op="/">÷</button>
+
+            <button class="btn light-gray scientific-btn" data-op="pow">^</button>
+            <button class="btn dark-gray" data-num="7">7</button>
+            <button class="btn dark-gray" data-num="8">8</button>
+            <button class="btn dark-gray" data-num="9">9</button>
+            <button class="btn orange" data-op="*">×</button>
+
+            <button class="btn light-gray scientific-btn" data-op="brac">()</button>
+            <button class="btn dark-gray" data-num="4">4</button>
+            <button class="btn dark-gray" data-num="5">5</button>
+            <button class="btn dark-gray" data-num="6">6</button>
+            <button class="btn orange" data-op="-">−</button>
+
+            <button class="btn light-gray scientific-btn" data-op="sqr">x<sup>2</sup></button>
+            <button class="btn dark-gray" data-num="1">1</button>
+            <button class="btn dark-gray" data-num="2">2</button>
+            <button class="btn dark-gray" data-num="3">3</button>
+            <button class="btn orange" data-op="+">+</button>
+
+            <button class="btn light-gray scientific-btn" data-op="sqrt">√</button>
+            <button class="btn dark-gray" data-action="sci-toggle" onclick="">
+                <img src="assets/scientificbutton.png" />
+            </button>
+            <button class="btn dark-gray zero" data-num="0">0</button>
+            <button class="btn dark-gray" data-num=".">.</button>
+            <button class="btn orange" data-action="equals">=</button>
+        </div>
+
+        <div id="history-panel">
+            <button id="close-history-btn">X</button>
+            <h2>History</h2>
+            <ul id="history-content"></ul>
+            <button id="clear-history-btn">Clear History</button>
+        </div>
+    </div>
+
+    <div class="gesture-bar"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
