@@ -37,6 +37,6 @@ A sleek, modern replica of the **iOS 17 Calculator** with enhanced features like
 
 <br>
 <div align="center">
-    <a href='https://thelabro.github.io/iOS17-inspired-calculator' target="_blank"><img src=assets/click.png alt="ios-calculator-link" height=60px></a>
+    <a href='https://thelabro.github.io/iOS17-inspired-Calculator' target="_blank"><img src=assets/click.png alt="ios-calculator-link" height=60px></a>
 </div>
 
